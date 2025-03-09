@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "daisyui": "^5.0.0"
+  },
+
+  "scripts": {
+    "deploy": "vite build && gh-pages -d dist"
   }
 }
